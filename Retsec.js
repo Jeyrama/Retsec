@@ -21,3 +21,17 @@ Examples:
 
 
 // Solution
+
+function reverseByCenter(s){
+  let halfStrLength = s.length/2;
+  let firstHalf = s.substring(halfStrLength, s.length);
+  let secondHalf = s.substring(0, halfStrLength);
+  let middleChar = s.charAt(halfStrLength);
+    
+  if (s.length % 2 === 0) {
+    return firstHalf + secondHalf; 
+  } else {
+      firstHalf = s.substring(halfStrLength + 1, s.length);
+      return firstHalf + middleChar + secondHalf;
+  }
+}
