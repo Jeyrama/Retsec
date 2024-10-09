@@ -37,3 +37,11 @@ function reverseByCenter(s){
 }
 
 // or
+
+function reverseByCenter(s) {
+  return (
+    s.substring(Math.ceil(s.length / 2)) +
+    s.substring(s.length / 2, Math.ceil(s.length / 2)) +
+    s.substring(0, s.length / 2)
+  );
+}
