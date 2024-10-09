@@ -35,3 +35,5 @@ function reverseByCenter(s){
       return firstHalf + middleChar + secondHalf;
   }
 }
+
+// or
