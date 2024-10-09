@@ -18,3 +18,6 @@ Examples:
   reverseByCenter("secret")  == "retsec" // no center character
   reverseByCenter("agent")   == "nteag"  // center character is "e"
 */
+
+
+// Solution
